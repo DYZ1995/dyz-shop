@@ -1,0 +1,46 @@
+.profiles-container {
+  width: 100%;
+  .info-bar {
+    display: flex;
+    flex-flow: row;
+    background: #fff;
+    margin-bottom: .2rem;
+    .bar-item {
+      width: 2.5rem;
+      height: 1.5rem;
+      text-align: center;
+      div {
+        margin-top: .15rem;
+        span {
+          font-size: .6rem;
+          font-weight: 700;
+          font-family: Helvetica Neue,Tahoma;
+        }
+      }
+      p {
+        color: #666;
+        margin-top: .1rem;
+      }
+      .sum {
+        span {
+          color: #f90;
+        }
+      }
+      .discounts-num {
+        span {
+          color: #ff5f3e;
+        }
+      }
+      .my-integral {
+        span {
+          color: #6ac20b;
+        }
+      }
+    }
+    .my-discounts {
+      border-left: 1px solid #f1f1f1;
+      border-right: 1px solid #f1f1f1;
+      width: 2.48rem;
+    }
+  }
+}
